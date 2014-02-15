@@ -1,4 +1,4 @@
-redis-wakanda - a wakanda redis client
+redis-wakanda - A wakanda Redis client
 ======================================
 
 This is a complete Redis client for wakanda.  It supports all Redis commands.
