@@ -1,0 +1,19 @@
+{
+  "name": "redis",
+  "version": "0.0.1",
+  "description": "Redis client library",
+  "keywords": [
+    "redis",
+    "database",
+    "wakanda"
+  ],
+  "author": "Mohamed IDRISSI <mohamed.idrissi@4d.com>",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mranney/node_redis.git"
+  },
+  "engine": {
+    "wakanda": "wak4"
+  }
+}
