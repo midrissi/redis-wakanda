@@ -163,7 +163,7 @@ Redis.prototype.execute = function() {
 	return true;
 };
 
-Redis.prototype.pipelining = function(pipelining) {
+Redis.prototype.pipeline = function(pipelining) {
 	this.isPipelining = pipelining !== false;
 
 	return this;
