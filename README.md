@@ -63,7 +63,7 @@ In order to enable the `pipelining`, the function `pipeline` must be called:
     var r = new Redis();
     
     // Enable the pipelining
-    r.pipelining();
+    r.pipeline();
     
     // These two request will be sent in one Redis request
     r.get('foo', function(data, err){
@@ -78,7 +78,7 @@ In order to enable the `pipelining`, the function `pipeline` must be called:
     r.execute();
     
     // Disable the pipelining
-    r.pipeline();
+    r.pipeline(false);
     
     // This request will be sent immediatly
     r.set('foo', 'new value', function(data, err){
