@@ -70,7 +70,7 @@ In order to enable the `pipelining`, the function `pipeline` must be called:
        debugger 
     });
     
-    r.get('foo', function(data, err){
+    r.get('bar', function(data, err){
        debugger 
     });
     
