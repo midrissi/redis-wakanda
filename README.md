@@ -56,7 +56,7 @@ example:
 
 ## Pipelining
 
-In order to enable the `pipelining`, the function `pipelining` must be called:
+In order to enable the `pipelining`, the function `pipeline` must be called:
 
 ```js
     var Redis = require('redis-wakanda');
@@ -78,7 +78,7 @@ In order to enable the `pipelining`, the function `pipelining` must be called:
     r.execute();
     
     // Disable the pipelining
-    r.pipelining();
+    r.pipeline();
     
     // This request will be sent immediatly
     r.set('foo', 'new value', function(data, err){
